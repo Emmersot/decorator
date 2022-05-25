@@ -1,0 +1,14 @@
+.heading {
+	text-align: center;
+	font-family: sans-serif;
+	background-color: lightblue;
+}
+
+.sidebar{
+  float: left;
+  text-align: center;
+	background-color: lightgrey;
+}
+.img {
+  float: center;
+}
