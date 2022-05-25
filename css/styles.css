@@ -10,17 +10,23 @@ h2{
   float: left;
   text-align: center;
 	background-color: lightgrey;
-	width: 20%;
+	width: 10%;
 	height: 100%;
 	border: 2px lightgray;
 }
 .img {
   float: right;
-	height: 50%;
+	border: 2px solid lightgreen;
+	padding: 4px;
+	margin: 12px;
+	width: 300px;
 	
 }
 .lefty{
 	float: left;
+	margin: 12px;
+	border: solid lightgreen;
+	box-sizing: border-box;
 }
 .theory {
 	float: center;
@@ -29,10 +35,16 @@ h2{
 }
 .before {
 	float:center;
+	border: 2px solid lightgrey;
+	padding: 4px;
+	margin: 20px;
+	margin-top: 20px;
+	width: 40%;
+	box-sizing: border-box;
 }
 
 .contact {
-  Position: absolute;
+  Position: top;
 bottom: 0;
 
 
@@ -40,4 +52,6 @@ bottom: 0;
 
 body {
 background-color: rgba(112, 180, 116, 0.87);
+
 }
+
